@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url('../ttf/verdana.ttf') format('truetype');
+}
+
+body {
+    margin: 25px;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+h1 a {
+    text-decoration: none;
+    color: grey;
+}
+
+h1 a:hover {
+    color: red;
+}
+
+p, tr {
+    font-family: Verdana;
+    font-size: 0.90em;
+    color: black;
+}
+
+p a {
+    text-decoration: none;
+    color: grey;
+}
+
+p a:hover {
+    color: red;
+}
+
+p#messageTxt {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    font-size: 0.9em;
+    text-align: center;
+    color: greenyellow;
+    background-color: green;
+}
+
+p#messageTxt a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+p#messageTxt a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+td a {
+    text-decoration: none;
+    color: white;
+}
+
+td a:hover {
+    color: red;
+}
+
+tr.firstTR td, tr.firstTR:hover td {
+    background-color: grey;
+    color: white;
+}
+
+tr:hover td {
+    background-color: orange;
+}
+
+input#cryptoSymbol {
+    text-transform: uppercase;
+}
+
+td.cryptoColor1 {
+    background-color: #d2d2d2;
+}
+
+td.cryptoColor2 {
+    background-color: #efefef;
+}
