@@ -45,7 +45,7 @@ To run this tool properly you'll need server or hosting with PHP 7.4. and MySQL 
 2. Configure system GLOBALS in file /inc/config.php
 3. Create empty MySQL database and run SQL commands from file db_structure.sql
 4. Enter database details into /inc/dbconnect.php
-5. Upload files to your FTP server.
+5. Upload all files from /php_source to your FTP server.
 
 Tool is ready! To start calculations you'll have to add at least one cryptocurrency and GPU.
 
